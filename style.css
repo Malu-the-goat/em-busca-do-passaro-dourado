@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(84, 94, 85);
+    color: rgb(8, 38, 0);
+    font-family: Silkscreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0px;
+}
+
+button {
+    background-color: rgb(130, 163, 145);
+    color: rgb(0, 0, 0);
+    font-family: Silkscreen;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    max-width: 90%;
+    text-align: center;
+}
+
+img {
+    max-width: 80%;
+}
